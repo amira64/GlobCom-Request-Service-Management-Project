@@ -1,0 +1,12 @@
+Project Name: GlobCom Request Service Management Project
+
+
+Team members:
+
+1 Noof Habib Al Khusaibi (Leader)
+2 Samah Salim Al Khanbashi
+3 Zainab Khalifa Al Hatmi
+4 Amira Rashid Al Riyami
+
+
+Class2

@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{057D8FFB-8E49-4103-9AA7-08E952E0414E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>globcom</RootNamespace>
+    <AssemblyName>globcom</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.7.0.0\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.6.0.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Permissions.7.0.0\lib\net462\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminFM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFM.Designer.cs">
+      <DependentUpon>AdminFM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePass.Designer.cs">
+      <DependentUpon>ChangePass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EMPFM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EMPFM.Designer.cs">
+      <DependentUpon>EMPFM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgetPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgetPass.Designer.cs">
+      <DependentUpon>ForgetPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobCom_ServiceDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GlobCom_ServiceDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HomeFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeFrm.designer.cs">
+      <DependentUpon>HomeFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyReqFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyReqFrm.designer.cs">
+      <DependentUpon>MyReqFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegesFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegesFrm.Designer.cs">
+      <DependentUpon>RegesFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RequestFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequestFrm.Designer.cs">
+      <DependentUpon>RequestFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatueFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatueFrm.Designer.cs">
+      <DependentUpon>StatueFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateProfile.Designer.cs">
+      <DependentUpon>UpdateProfile.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminFM.resx">
+      <DependentUpon>AdminFM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePass.resx">
+      <DependentUpon>ChangePass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMPFM.resx">
+      <DependentUpon>EMPFM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgetPass.resx">
+      <DependentUpon>ForgetPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeFrm.resx">
+      <DependentUpon>HomeFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyReqFrm.resx">
+      <DependentUpon>MyReqFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RegesFrm.resx">
+      <DependentUpon>RegesFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RequestFrm.resx">
+      <DependentUpon>RequestFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatueFrm.resx">
+      <DependentUpon>StatueFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateProfile.resx">
+      <DependentUpon>UpdateProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="GlobCom_ServiceDataSet.xsc">
+      <DependentUpon>GlobCom_ServiceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GlobCom_ServiceDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GlobCom_ServiceDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GlobCom_ServiceDataSet.xss">
+      <DependentUpon>GlobCom_ServiceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\em.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\em1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_394152279_XVn2SV9a2QD2lV6q9WYXBGWEe6znYy5w.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Digital-Marketing-PNG-File-Download-Free.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close15px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize15px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize15px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimiz1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimiz11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data master.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laporan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anggota.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_339709048_ZITR4wrVsOXCKdjHncdtabSNWpIhiaR7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fingerprint-identity-sensor-data-protection-system-podium-hologram-blue-light-and-concept-free-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\179466de20ee26922f9b2309fcda7c6e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_399248286_Ogm0T8CFeauN4Hdn42FqWfsCE02dJBbX.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_562132073_FuHjnijmLs3l7aHE819wPJ3PmXYbHoBK.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_370928450_R6g8c0j5cey86PUXE32W7KMiqIUe1fOI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_399248286_Ogm0T8CFeauN4Hdn42FqWfsCE02dJBbX1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_339709048_ZITR4wrVsOXCKdjHncdtabSNWpIhiaR71.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forget.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-reset-password-to-gain-more-secure-account-png-image_8920326.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\regBanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_icon_Reset_Password-159x159.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cjrufc17v02f1crg0zsp9gcq7-how-is-it-issue-tracking-software-used-2x.one-half.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-maximize-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-subtract-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1433155192-170667a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61d2a28aa6934fd0b9193fd6_Cartoon+tiny+analysts+and+giant+research+dashboard+with+data-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\icons8-new-copy-50.png" />
+    <None Include="Resources\icons8-new-copy-501.png" />
+    <None Include="Resources\icons8-new-copy-502.png" />
+    <None Include="Resources\icons8-new-copy-503.png" />
+    <None Include="Resources\icons8-new-copy-150.png" />
+    <None Include="Resources\greenIcon.jpeg" />
+    <None Include="Resources\greenIcon.png" />
+    <None Include="Resources\icons8-iphone-se-80 %281%29.png" />
+    <None Include="Resources\icons8-address-50.png" />
+    <None Include="Resources\icons8-home-page-481.png" />
+    <Content Include="Resources\icons8-mail-100.png" />
+    <Content Include="Resources\icons8-save-96.png" />
+    <Content Include="Resources\icons8-save-961.png" />
+    <Content Include="Resources\icons8-send-to-printer-96.png" />
+    <None Include="Resources\Mantenimiento-obligatorio-de-los-registros-de-los-empleados-1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

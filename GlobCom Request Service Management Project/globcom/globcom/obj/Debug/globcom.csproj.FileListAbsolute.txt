@@ -1,0 +1,91 @@
+C:\Users\LENOVO\Documents\globcom\globcom\bin\Debug\globcom.exe.config
+C:\Users\LENOVO\Documents\globcom\globcom\bin\Debug\globcom.exe
+C:\Users\LENOVO\Documents\globcom\globcom\bin\Debug\globcom.pdb
+C:\Users\LENOVO\Documents\globcom\globcom\obj\Debug\globcom.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Documents\globcom\globcom\obj\Debug\globcom.csproj.SuggestedBindingRedirects.cache
+C:\Users\LENOVO\Documents\globcom\globcom\obj\Debug\globcom.Form1.resources
+C:\Users\LENOVO\Documents\globcom\globcom\obj\Debug\globcom.Properties.Resources.resources
+C:\Users\LENOVO\Documents\globcom\globcom\obj\Debug\globcom.csproj.GenerateResource.cache
+C:\Users\LENOVO\Documents\globcom\globcom\obj\Debug\globcom.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Documents\globcom\globcom\obj\Debug\globcom.exe
+C:\Users\LENOVO\Documents\globcom\globcom\obj\Debug\globcom.pdb
+C:\Users\LENOVO\Documents\globcom\globcom\obj\Debug\globcom.RegesFrm.resources
+C:\Users\LENOVO\Documents\globcom\globcom\obj\Debug\globcom.ForgetPass.resources
+C:\Users\LENOVO\Documents\globcom\globcom\obj\Debug\globcom.Main.resources
+C:\Users\LENOVO\Documents\globcom\globcom\obj\Debug\globcom.ChangePass.resources
+C:\Users\LENOVO\Documents\globcom\globcom\obj\Debug\globcom.RequestFrm.resources
+C:\Users\LENOVO\Documents\globcom\globcom\obj\Debug\globcom.AdminFM.resources
+C:\Users\LENOVO\Documents\globcom\globcom\obj\Debug\globcom.UpdateProfile.resources
+C:\Users\LENOVO\Documents\globcom\globcom\obj\Debug\globcom.StatueFrm.resources
+C:\Users\USER\Documents\globcom\globcom\globcom\obj\Debug\globcom.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\globcom\globcom\globcom\obj\Debug\globcom.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\Documents\globcom\globcom\globcom\obj\Debug\globcom.exe
+C:\Users\USER\Documents\globcom\globcom\globcom\obj\Debug\globcom.pdb
+C:\Users\USER\Desktop\globcom\globcom\bin\Debug\globcom.exe.config
+C:\Users\USER\Desktop\globcom\globcom\bin\Debug\globcom.exe
+C:\Users\USER\Desktop\globcom\globcom\bin\Debug\globcom.pdb
+C:\Users\USER\Desktop\globcom\globcom\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\USER\Desktop\globcom\globcom\bin\Debug\System.Security.AccessControl.dll
+C:\Users\USER\Desktop\globcom\globcom\bin\Debug\System.Security.Permissions.dll
+C:\Users\USER\Desktop\globcom\globcom\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\USER\Desktop\globcom\globcom\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\USER\Desktop\globcom\globcom\bin\Debug\System.Security.AccessControl.xml
+C:\Users\USER\Desktop\globcom\globcom\bin\Debug\System.Security.Permissions.xml
+C:\Users\USER\Desktop\globcom\globcom\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\USER\Desktop\globcom\globcom\obj\Debug\globcom.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\globcom\globcom\obj\Debug\globcom.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\Desktop\globcom\globcom\obj\Debug\globcom.AdminFM.resources
+C:\Users\USER\Desktop\globcom\globcom\obj\Debug\globcom.ChangePass.resources
+C:\Users\USER\Desktop\globcom\globcom\obj\Debug\globcom.EMPFM.resources
+C:\Users\USER\Desktop\globcom\globcom\obj\Debug\globcom.ForgetPass.resources
+C:\Users\USER\Desktop\globcom\globcom\obj\Debug\globcom.Form1.resources
+C:\Users\USER\Desktop\globcom\globcom\obj\Debug\globcom.Main.resources
+C:\Users\USER\Desktop\globcom\globcom\obj\Debug\globcom.Properties.Resources.resources
+C:\Users\USER\Desktop\globcom\globcom\obj\Debug\globcom.RegesFrm.resources
+C:\Users\USER\Desktop\globcom\globcom\obj\Debug\globcom.RequestFrm.resources
+C:\Users\USER\Desktop\globcom\globcom\obj\Debug\globcom.StatueFrm.resources
+C:\Users\USER\Desktop\globcom\globcom\obj\Debug\globcom.UpdateProfile.resources
+C:\Users\USER\Desktop\globcom\globcom\obj\Debug\globcom.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\globcom\globcom\obj\Debug\globcom.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\globcom\globcom\obj\Debug\globcom.csproj.CopyComplete
+C:\Users\USER\Desktop\globcom\globcom\obj\Debug\globcom.exe
+C:\Users\USER\Desktop\globcom\globcom\obj\Debug\globcom.pdb
+C:\Users\USER\Desktop\globcom\globcom\obj\Debug\globcom.HomeFrm.resources
+C:\Users\USER\Desktop\globcom\globcom\obj\Debug\globcom.MyReqFrm.resources
+C:\Users\USER\Desktop\globcom\globcom\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\USER\Desktop\globcom\globcom\bin\Debug\itextsharp.dll
+C:\Users\USER\Desktop\globcom\globcom\bin\Debug\itextsharp.xml
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\bin\Debug\globcom.exe.config
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\bin\Debug\globcom.exe
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\bin\Debug\globcom.pdb
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\bin\Debug\itextsharp.dll
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\bin\Debug\System.Security.AccessControl.dll
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\bin\Debug\System.Security.Permissions.dll
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\bin\Debug\itextsharp.xml
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\bin\Debug\System.Security.AccessControl.xml
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\bin\Debug\System.Security.Permissions.xml
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\obj\Debug\globcom.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\obj\Debug\globcom.csproj.SuggestedBindingRedirects.cache
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\obj\Debug\globcom.AdminFM.resources
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\obj\Debug\globcom.ChangePass.resources
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\obj\Debug\globcom.EMPFM.resources
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\obj\Debug\globcom.ForgetPass.resources
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\obj\Debug\globcom.Form1.resources
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\obj\Debug\globcom.HomeFrm.resources
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\obj\Debug\globcom.Main.resources
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\obj\Debug\globcom.MyReqFrm.resources
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\obj\Debug\globcom.Properties.Resources.resources
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\obj\Debug\globcom.RegesFrm.resources
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\obj\Debug\globcom.RequestFrm.resources
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\obj\Debug\globcom.StatueFrm.resources
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\obj\Debug\globcom.UpdateProfile.resources
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\obj\Debug\globcom.csproj.GenerateResource.cache
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\obj\Debug\globcom.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\obj\Debug\globcom.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\obj\Debug\globcom.exe
+C:\Users\LENOVO\Desktop\GlobCom Request Service Management Project\globcom\globcom\obj\Debug\globcom.pdb
